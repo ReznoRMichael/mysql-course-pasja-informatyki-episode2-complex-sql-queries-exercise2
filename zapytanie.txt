@@ -1,0 +1,1 @@
+SELECT auta.marka, auta.model FROM auta, klienci, wypozyczenia WHERE klienci.nazwisko = "Pastewniak" AND wypozyczenia.idauta = auta.idauta AND wypozyczenia.idklienta = klienci.idklienta
